@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kike Tours</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fdfdfd;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0189a6, #02c3c3);
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    nav {
+      background: #015a6a;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #015a6a;
+      margin-bottom: 15px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .testimonials {
+      display: grid;
+      gap: 20px;
+    }
+
+    .testimonial {
+      background: #eef9fa;
+      padding: 20px;
+      border-left: 6px solid #02a7b1;
+      border-radius: 6px;
+    }
+
+    .whatsapp-button {
+      display: block;
+      width: fit-content;
+      margin: 40px auto;
+      background: #25d366;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #015a6a;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kike Tours</h1>
+  <p>Tu experiencia turística desde la llegada hasta la despedida</p>
+</header>
+
+<nav>
+  <a href="#lugares">Lugares Turísticos</a>
+  <a href="#galeria">Galería</a>
+  <a href="#testimonios">Testimonios</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="section" id="lugares">
+  <h2>Destinos que visitamos</h2>
+  <p>En Kike Tours te llevamos a descubrir los rincones más increíbles de la Ciudad de México:</p>
+  <ul>
+    <li>Centro Histórico y Zócalo</li>
+    <li>Museo de Antropología</li>
+    <li>Xochimilco</li>
+    <li>Castillo de Chapultepec</li>
+    <li>Basílica de Guadalupe</li>
+    <li>La Casa Azul de Frida Kahlo</li>
+    <li>Coyoacán</li>
+    <li>Torre Latinoamericana</li>
+  </ul>
+</section>
+
+<section class="section" id="galeria">
+  <h2>Galería de experiencias</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1543352632-1a1d044a0b97" alt="Centro Histórico" />
+    <img src="https://images.unsplash.com/photo-1584466977773-e625c37aae52" alt="Xochimilco" />
+    <img src="https://images.unsplash.com/photo-1526401485004-2aa7df7962f8" alt="Chapultepec" />
+    <img src="https://images.unsplash.com/photo-1606700871903-8e1bc105b956" alt="Museo" />
+  </div>
+</section>
+
+<section class="section" id="testimonios">
+  <h2>Testimonios</h2>
+  <div class="testimonials">
+    <div class="testimonial">"Excelente servicio, siempre puntuales y muy amables. Super recomendado." – Ana P.</div>
+    <div class="testimonial">"Nos llevaron a todos los puntos turísticos sin prisas y con buena vibra." – Carlos R.</div>
+    <div class="testimonial">"La mejor experiencia, desde que salimos del aeropuerto hasta el último recorrido." – Mariana S.</div>
+  </div>
+</section>
+
+<a class="whatsapp-button" id="contacto" href="https://wa.me/5210000000000" target="_blank">Enviar mensaje por WhatsApp</a>
+
+<footer>
+  <p>Kike Tours © 2025 · Servicio turístico y transporte personalizado</p>
+</footer>
+
+</body>
+</html>
